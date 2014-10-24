@@ -83,6 +83,7 @@ def create(argv):
     
     
     #Make Document Temporary
+    scribus.saveDoc()
     scribus.saveDocAs(tmpFileName)
     scribus.messagebarText("Dokument in Bearbeitung, bitte warten")
     scribus.closeDoc()
